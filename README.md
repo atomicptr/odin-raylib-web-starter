@@ -7,6 +7,8 @@ The web part is based on [@Caedo/raylib_wasm_odin](https://github.com/Caedo/rayl
 **NOTE**: Not sure if this works on anything but Linux, because I build the libraylib.a that is checked in myself
 **NOTE**: This project vendors the vendor:raylib library locally under libs/raylib
 
+![](./.github/images/anim.gif)
+
 ## Usage
 
 The idea for editing this project is that you leave the web package alone and work with the game package.
