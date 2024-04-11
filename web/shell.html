@@ -25,7 +25,10 @@
         .img-wrapper {
             margin-bottom: 8px;
         }
-        canvas.emscripten { border: 8px solid black; background-color: black; }
+        canvas.emscripten { border: 0px; background-color: black; }
+        .canvas-wrapper {
+            border: 8px solid black;
+        }
     </style>
     <script type='text/javascript' src="https://cdn.jsdelivr.net/gh/eligrey/FileSaver.js/dist/FileSaver.min.js"> </script>
     <script type='text/javascript'>
@@ -53,7 +56,9 @@
                 <div class="img-wrapper">
                     <img src="https://www.raylib.com/common/img/raylib_logo.png" />
                 </div>
-                <canvas class=emscripten id=canvas oncontextmenu=event.preventDefault() tabindex=-1></canvas>
+                <div class="canvas-wrapper">
+                    <canvas class=emscripten id=canvas oncontextmenu=event.preventDefault() tabindex=-1></canvas>
+                </div>
                 <p id="output" />
                 <script>
                     var Module = {

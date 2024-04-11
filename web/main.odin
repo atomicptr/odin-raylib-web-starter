@@ -4,7 +4,7 @@ import "../game"
 import "core:math/rand"
 import "core:mem"
 import "core:runtime"
-import rl "raylib"
+import rl "libs:raylib"
 
 foreign import "odin_env"
 

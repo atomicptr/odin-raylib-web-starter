@@ -1,6 +1,6 @@
 package game
 
-import rl "../web/raylib"
+import rl "libs:/raylib"
 
 title :: "Odin Raylib Web Starter"
 window_width :: 800
